@@ -72,7 +72,7 @@ n = 200# planning steps
 epsilon = 0# essilon greedy
 gamma = 0.95# discount
 alpha = 0.1# step size
-kappa = 0.00095
+kappa = 0.03
 #REP = 30# repeat times of the whole experiment
 STEP = 6000# number of steps
 cumulative_reward = np.zeros(STEP+1, dtype=np.int)
